@@ -11,7 +11,7 @@ import { IOAppCore, ILayerZeroEndpointV2 } from "./interfaces/IOAppCore.sol";
  */
 abstract contract OAppCore is IOAppCore, Ownable {
     // The LayerZero endpoint associated with the given OApp
-    ILayerZeroEndpointV2 public immutable endpoint;
+    ILayerZeroEndpointV2 public endpoint;
 
     // Mapping to store peers associated with corresponding endpoints
     mapping(uint32 eid => bytes32 peer) public peers;
