@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-// modified from https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/structs/BitMaps.sol
+// modified from https://github.com/OpenZeppelin/@openzeppelin/contracts/blob/master/contracts/utils/structs/BitMaps.sol
 pragma solidity ^0.8.20;
 
 type BitMap256 is uint256;

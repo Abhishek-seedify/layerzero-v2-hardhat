@@ -4,12 +4,12 @@
 
 pragma solidity ^0.8.0;
 
-import { Ownable } from "openzeppelin-contracts/access/Ownable.sol";
+import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
 
 import { TransparentUpgradeableProxy } from "./TransparentUpgradeableProxy.sol";
 
 /**
- * @author OpenZeppelin. Modified from https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.4/contracts/proxy/transparent/ProxyAdmin.sol
+ * @author OpenZeppelin. Modified from https://github.com/OpenZeppelin/@openzeppelin/contracts/blob/release-v4.4/contracts/proxy/transparent/ProxyAdmin.sol
  * to support custom errors and `initialOwner` constructor parameter.
  * @dev This is an auxiliary contract meant to be assigned as the admin of a {TransparentUpgradeableProxy}. For an
  * explanation of why you would want to use this see the documentation for {TransparentUpgradeableProxy}.

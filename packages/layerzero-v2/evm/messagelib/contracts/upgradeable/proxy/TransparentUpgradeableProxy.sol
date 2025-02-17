@@ -4,10 +4,10 @@
 
 pragma solidity ^0.8.0;
 
-import { ERC1967Proxy } from "openzeppelin-contracts/proxy/ERC1967/ERC1967Proxy.sol";
+import { ERC1967Proxy } from "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 
 /**
- * @author OpenZeppelin. Modified from https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.4/contracts/proxy/transparent/TransparentUpgradeableProxy.sol
+ * @author OpenZeppelin. Modified from https://github.com/OpenZeppelin/@openzeppelin/contracts/blob/release-v4.4/contracts/proxy/transparent/TransparentUpgradeableProxy.sol
  * to support custom errors.
  * @dev This contract implements a proxy that is upgradeable by an admin.
  *
